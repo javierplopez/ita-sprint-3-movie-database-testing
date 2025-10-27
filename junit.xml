@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="37" failures="19" errors="0" time="0.464">
-  <testsuite name="tests/films.spec.js" errors="0" failures="19" skipped="0" timestamp="2025-10-27T12:12:05" time="0.339" tests="37">
+<testsuites name="jest tests" tests="37" failures="17" errors="0" time="0.48">
+  <testsuite name="tests/films.spec.js" errors="0" failures="17" skipped="0" timestamp="2025-10-27T12:20:34" time="0.348" tests="37">
     <testcase classname="Function &quot;getAllDirectors&quot;" name="should be declared" time="0.003">
     </testcase>
-    <testcase classname="Function &quot;getAllDirectors&quot;" name="should return an array" time="0.004">
+    <testcase classname="Function &quot;getAllDirectors&quot;" name="should return an array" time="0.002">
     </testcase>
     <testcase classname="Function &quot;getAllDirectors&quot;" name="should return a new array, not update the original one" time="0.001">
     </testcase>
@@ -11,61 +11,23 @@
     </testcase>
     <testcase classname="Function &quot;getMoviesFromDirector&quot;" name="should be declared" time="0">
     </testcase>
-    <testcase classname="Function &quot;getMoviesFromDirector&quot;" name="should return an array" time="0.001">
+    <testcase classname="Function &quot;getMoviesFromDirector&quot;" name="should return an array" time="0">
     </testcase>
-    <testcase classname="Function &quot;getMoviesFromDirector&quot;" name="should return a new array, not update the original one" time="0">
+    <testcase classname="Function &quot;getMoviesFromDirector&quot;" name="should return a new array, not update the original one" time="0.001">
     </testcase>
     <testcase classname="Function &quot;getMoviesFromDirector&quot;" name="should return a new array with the movies from director" time="0">
     </testcase>
-    <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name="should be declared" time="0.001">
+    <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name="should be declared" time="0">
     </testcase>
-    <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name="should return a number" time="0.001">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: &quot;number&quot;
-Received: &quot;undefined&quot;
-    at Object.toBe (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/tests/films.spec.js:107:71)
-    at Promise.then.completed (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/utils.js:298:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/utils.js:231:10)
-    at _callCircusTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:316:40)
-    at processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at _runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:252:3)
-    at _runTestsForDescribeBlock (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:126:9)
-    at _runTestsForDescribeBlock (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:121:9)
-    at run (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:71:3)
-    at runAndTransformResultsToJestFormat (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
-    at jestAdapter (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
-    at runTestInternal (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:367:16)
-    at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
-    at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name="should return a number" time="0">
     </testcase>
-    <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name="should be different from NaN" time="0">
+    <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name="should be different from NaN" time="0.001">
     </testcase>
     <testcase classname="Function &quot;moviesAverageOfDirector&quot;" name=" should return the average score of movies selecting only the director films. With 2 decimals! " time="0">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: 8.65
-Received: undefined
-    at Object.toBe (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/tests/films.spec.js:140:30)
-    at Promise.then.completed (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/utils.js:298:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/utils.js:231:10)
-    at _callCircusTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:316:40)
-    at processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at _runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:252:3)
-    at _runTestsForDescribeBlock (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:126:9)
-    at _runTestsForDescribeBlock (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:121:9)
-    at run (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/run.js:71:3)
-    at runAndTransformResultsToJestFormat (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
-    at jestAdapter (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
-    at runTestInternal (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:367:16)
-    at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
-    at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
     <testcase classname="Function &quot;orderAlphabetically&quot;" name="should be declared" time="0">
     </testcase>
-    <testcase classname="Function &quot;orderAlphabetically&quot;" name="should return an array" time="0">
+    <testcase classname="Function &quot;orderAlphabetically&quot;" name="should return an array" time="0.002">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: &quot;object&quot;
@@ -86,7 +48,7 @@ Received: &quot;undefined&quot;
     at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
     at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
-    <testcase classname="Function &quot;orderAlphabetically&quot;" name="should not mutate the original array" time="0.001">
+    <testcase classname="Function &quot;orderAlphabetically&quot;" name="should not mutate the original array" time="0">
     </testcase>
     <testcase classname="Function &quot;orderAlphabetically&quot;" name="should only return the title of the movies, each value should be a string" time="0">
       <failure>TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
@@ -128,7 +90,7 @@ Received has value: undefined
     at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
     at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
-    <testcase classname="Function &quot;orderAlphabetically&quot;" name="should order them alphabetically." time="0.001">
+    <testcase classname="Function &quot;orderAlphabetically&quot;" name="should order them alphabetically." time="0">
       <failure>Error: expect(received).toEqual(expected) // deep equality
 
 Expected: [&quot;aaa&quot;, &quot;aab&quot;, &quot;abb&quot;, &quot;abc&quot;, &quot;acb&quot;]
@@ -216,7 +178,7 @@ Received: undefined
     at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
     at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
-    <testcase classname="Function &quot;orderByYear&quot;" name="should return the new array in ascending order" time="0">
+    <testcase classname="Function &quot;orderByYear&quot;" name="should return the new array in ascending order" time="0.001">
       <failure>Error: expect(received).toEqual(expected) // deep equality
 
 Expected: [{&quot;year&quot;: 1982}, {&quot;year&quot;: 1995}, {&quot;year&quot;: 2002}]
@@ -237,7 +199,7 @@ Received: undefined
     at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
     at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
-    <testcase classname="Function &quot;orderByYear&quot;" name="should order movies with the same year by their title, alphabetically" time="0.001">
+    <testcase classname="Function &quot;orderByYear&quot;" name="should order movies with the same year by their title, alphabetically" time="0">
       <failure>Error: expect(received).toEqual(expected) // deep equality
 
 Expected: [{&quot;title&quot;: &quot;aab&quot;, &quot;year&quot;: 1982}, {&quot;title&quot;: &quot;bac&quot;, &quot;year&quot;: 1982}, {&quot;title&quot;: &quot;abc&quot;, &quot;year&quot;: 2002}]
@@ -302,7 +264,7 @@ Received: false
     at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
     at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
-    <testcase classname="Function &quot;hoursToMinutes&quot;" name="should return a new array, not update the original one" time="0.001">
+    <testcase classname="Function &quot;hoursToMinutes&quot;" name="should return a new array, not update the original one" time="0">
     </testcase>
     <testcase classname="Function &quot;hoursToMinutes&quot;" name="should return an array of movies with duration as a number" time="0">
       <failure>TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
@@ -358,7 +320,7 @@ Received: false
     at runTest (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/runTest.js:444:34)
     at Object.worker (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
     </testcase>
-    <testcase classname="Function &quot;hoursToMinutes&quot;" name="should return an array of movies with the correct duration for a 2 hour movie" time="0">
+    <testcase classname="Function &quot;hoursToMinutes&quot;" name="should return an array of movies with the correct duration for a 2 hour movie" time="0.001">
       <failure>TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
     at Object.&lt;anonymous&gt; (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/tests/films.spec.js:331:36)
     at Promise.then.completed (/Users/javierperezlopez/Documents/Formación/Programación y desarrollo web/IT Academy/Especialización/Front End/Sprint 3/ita-sprint-3-movie-database-testing/node_modules/jest-circus/build/utils.js:298:28)
