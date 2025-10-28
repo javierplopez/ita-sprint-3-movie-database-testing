@@ -6,6 +6,8 @@ A company in the audiovisual sector has asked us for a web application that will
 
 The goal is to develop the necessary logic to achieve effective data handling through array method exercises and testing.
 
+**Array Methods Used:** `map()`, `filter()`, `reduce()`, `sort()`, `slice()`, `includes()` + Regular Expressions and Spread Operator for advanced data manipulation.
+
 ---
 
 ## 📋 Exercises Overview
